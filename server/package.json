@@ -1,0 +1,40 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "collecting metrics(RAM,CPU,Outgoing bytes, Incoming Bytes , resident RAM) send mails to admin when obeserving abnormal VM behaviour",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jQuery": "^1.7.4",
+    "jsdom": "^9.4.2",
+    "mongodb": "^2.2.5",
+    "mongojs": "^2.4.0",
+    "nodemailer": "^2.5.0",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "watch vms",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YassineFadhlaoui/Ceilometer-metrics.git"
+  },
+  "keywords": [
+    "mapreduce",
+    "openstack",
+    "ceilometer",
+    "mongodb",
+    "ram",
+    "cpu",
+    "bandwidth"
+  ],
+  "author": "YassineFadhlaoui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YassineFadhlaoui/Ceilometer-metrics/issues"
+  },
+  "homepage": "https://github.com/YassineFadhlaoui/Ceilometer-metrics#readme"
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,600' rel='stylesheet' type='text/css'>
+    		<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+
+        <style>
+
+        body{
+          background: #232526; /* fallback for old browsers */
+          background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+          background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+
+        </style>
+  </head>
+
+  <body>
+    <div class="outer">
+			<div class="sidebar">
+				<!-- Logo of company -->
+				<div class="logo">
+          <img src="img/os.png" height="150px" width="150px" style="text-align:center;"/>
+				</div>
+
+				<!-- Navigation menu list -->
+				<ul class="list-unstyled list">
+          <li><a href="/#!/Overview" class="anchorLink"><i class="icon-bar-chart scolor"></i> overview</a></li>
+          <li><a href="/#!/CPUUsage" class="anchorLink"><i class="icon-gears scolor"></i>CPU</a></li>
+          <li><a href="/#!/RAM" class="anchorLink"><i class="icon-tasks scolor"></i> RAM</a></li>
+          <li><a href="/#!/Network" class="anchorLink"><i class="icon-signal scolor"></i> Network</a></li>
+          <li><a href="/#!/InstanceFailure" class="anchorLink"><i class="icon-bug scolor"></i>Instance Failer</a></li>
+          <li><a href="/#!/Alert" class="anchorLink"><i class="icon-info scolor"></i>Alerts</a></li>
+          <li><a href="/#!/Contact" class="anchorLink"><i class="icon-phone scolor"></i>Contact</a></li>
+			</div>
+
+		</div>
+		<div class="clearfix"></div>
+
+    </div>
+    <div id="main" style="margin-left:20%;margin-top:20px">
+      <table style='width:100%; table-layout: fixed; '>
+        <tbody id="container">
+          <tr>
+            <td style='width:330px; table-layout: fixed;  padding:0 6px 0 6px; vertical-align:top'>
+              <div style="background-color:#C2C2C2; width:100%; border-radius: 15px ;">
+
+              <div style="background-color:#ABABAB; width:100%;border-radius: 15px ;">
+                  <center><span class="count1">CPU Alarms</span></center>
+                </div>
+                <div style="background-color:#B6D6E0; width:100%;heigth:10px">
+                  <center><span style="visibility: hidden;">header</span></center>
+                </div><br>
+                <table style='width:100%; table-layout: fixed; ;'>
+                  <tbody id="cpu">
+
+                  </tbody>
+                </table>
+              </div>
+            </td>
+            <td style='width:330px; table-layout: fixed;  padding:0 6px 0 6px; vertical-align:top;border-radius: 15px ;'>
+              <div style="background-color:#C2C2C2; width:100%; border-radius: 15px 5px;">
+                <div style="background-color:#ABABAB; width:100%;border-radius: 15px ;">
+                  <center><span class="count1">RAM Alarms</span></center>
+                </div>
+                <div style="background-color:#B6D6E0; width:100%;heigth:10px">
+                  <center><span style="visibility: hidden;">header</span></center>
+                </div>
+                <table style='width:100%; table-layout: fixed; margin-top:20px ;'>
+                  <tbody id="ram">
+
+                  </tbody>
+                </table>
+              </div>
+            </td>
+            <td style='width:330px; table-layout: fixed; padding:0 6px 0 6px; vertical-align:top;border-radius: 15px ;'>
+              <div style="background-color:#C2C2C2; width:100%; border-radius: 15px 5px;">
+                <div style="background-color:#ABABAB; width:100%;border-radius: 15px ;">
+                  <center><span class="count1">Network Alarms</span></center>
+                </div>
+                <div style="background-color:#B6D6E0; width:100%;heigth:10px">
+                  <center><span style="visibility: hidden;">header</span></center>
+                </div>
+                <table style='width:100%; table-layout: fixed; margin-top:20px ;'>
+                  <tbody id="network">
+
+                  </tbody>
+                </table>
+              </div>
+            </td>
+        </tr>
+
+        </tbody>
+      </table>
+
+    </body>
+    <script src="../js/ribbon.min.js"></script>
+
+</html>
