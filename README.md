@@ -1,6 +1,5 @@
 # Ceilometer-metrics
 This project aims to exploit ceilometer statistics and metrics 
-How it works
 
 #How it works
 ##the server
@@ -63,11 +62,11 @@ then visit [http://localhost:8000/](http://localhost:8000/)
 * ceilometer installed and running correctly
 * Mongod server up
 * mongo client installed
-* one instance up at least
+* one instance up and running at least
 * nodejs installed
-* Internet connexion
+* Internet connection
 
-#programming languages
+#Programming languages
 
 * Javascript
 
