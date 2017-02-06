@@ -67,10 +67,9 @@ then visit [http://localhost:8000/](http://localhost:8000/)
 * nodejs installed
 * Internet connexion
 
-#Used programming languages
+#programming languages
 
 * Javascript
-* AngularJS
 
 #Runtime
 
